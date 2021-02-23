@@ -46,7 +46,7 @@ write(c(B.1.1.7,P.1,others),"get_all_sequences.txt")
 
 
 ### new data
-sequence_names <- get.fasta.name("D:/Documents/John/University/Master/Project/Data/COVID/nextstrain/all_sequences.fasta")
+sequence_names <- get.fasta.name("D:/Documents/GitHub/bioinf-masters/COVID/nextstrain/all_sequences.fasta")
 
 set.seed(1)
 
