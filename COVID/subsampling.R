@@ -45,7 +45,7 @@ others <- as.character(others[others$PANGO.Lineage!="P.1",]$gisaid_epi_isl)
 write(c(B.1.1.7,P.1,others),"get_all_sequences.txt")
 
 
-### new data
+### get new data
 sequence_names <- get.fasta.name("D:/Documents/GitHub/bioinf-masters/COVID/nextstrain/all_sequences.fasta")
 
 set.seed(1)
@@ -58,3 +58,30 @@ get_others <- others[others %in% sequence_names]
 get_others <- sample(get_others,200,replace = FALSE)
 
 write(c(get_B.1.1.7,get_P.1,get_others),"get_sequences.txt")
+
+
+### add collection time to sequence names
+sequence_names <- read.delim2("get_sequences.txt",header = FALSE,stringsAsFactors = FALSE)
+for (x in 1:length(sequence_names[,1])) {
+  sequence_names[x,2] <- paste0(tr_metadata[tr_metadata$gisaid_epi_isl == sequence_names[x,1],]$PANGO.Lineage,"_",sequence_names[x,1],"_",tr_metadata[tr_metadata$gisaid_epi_isl == sequence_names[x,1],]$Collection.Data)
+}
+
+
+sequences <- rename.fasta("aligned_COVID.fasta", sequence_names,"renamed_aligned_COVID.fasta")
+
+
+### test if new sequences are in old fasta
+old_sequences <-  get.fasta.name("D:/Documents/John/University/Master/Project/Data/COVID/nextstrain/aligned_COVID.fasta")
+new_sequences <- get.fasta.name("D:/Documents/John/University/Master/Project/Data/COVID/nextstrain/added/baseline_sequences.fasta")
+test_vector <- vector() 
+for (i in 1:length(new_sequences)) {
+  test_vector[i] <- new_sequences[i]%in%old_sequences
+  print(new_sequences[i]%in%old_sequences)
+}
+### add new sequences to old fasta
+tr_metadata <- read.csv("D:/Documents/John/University/Master/Project/Data/COVID/nextstrain/added/metadata_1003.csv")
+new_sequences <- data.frame(new_sequences)
+for (x in 1:length(new_sequences[,1])) {
+  new_sequences[x,2] <- tr_metadata[tr_metadata$gisaid_epi_isl == new_sequences[x,1],]$new_names
+}
+sequences <- rename.fasta("renamed_aligned_COVID.fasta", sequence_names,"V2_renamed_aligned_COVID.fasta")
