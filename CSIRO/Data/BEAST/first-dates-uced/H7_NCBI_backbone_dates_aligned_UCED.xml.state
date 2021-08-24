@@ -1,0 +1,37 @@
+<itsabeastystatewerein version='2.0' sample='10000000'>
+<statenode id='Tree.t:H7_NCBI_backbone_dates_aligned'>((((0:3.808671918541533,11:1.1593568500485087)19:0.2245646385897384,((8:1.33729494787559,9:0.26058261910844616)15:1.5546601907826672,10:0.25633870030224726)17:12.130322514363357)18:6.470166986324976,(7:0.7734275806414335,12:9.872057717627664)21:11.691619798431356)23:7.822762677546304,(((1:0.5102491948241621,((2:0.2752615505142586,3:0.2560834683225295)14:0.10963855137444511,4:0.39585900599836066)16:3.0787737504697006)20:2.4888333628053907,6:0.605722276171381)13:7.061935555981062,5:0.5021140040215215)22:5.2021344087618075)24:0.0</statenode>
+<statenode id='rateAC.s:H7_NCBI_backbone_dates_aligned'>rateAC.s:H7_NCBI_backbone_dates_aligned[1 1] (0.0,Infinity): 0.13298338656325737 </statenode>
+<statenode id='rateAG.s:H7_NCBI_backbone_dates_aligned'>rateAG.s:H7_NCBI_backbone_dates_aligned[1 1] (0.0,Infinity): 0.7703385923813473 </statenode>
+<statenode id='rateAT.s:H7_NCBI_backbone_dates_aligned'>rateAT.s:H7_NCBI_backbone_dates_aligned[1 1] (0.0,Infinity): 0.03884724065363505 </statenode>
+<statenode id='rateCG.s:H7_NCBI_backbone_dates_aligned'>rateCG.s:H7_NCBI_backbone_dates_aligned[1 1] (0.0,Infinity): 7.654554680682112E-19 </statenode>
+<statenode id='rateGT.s:H7_NCBI_backbone_dates_aligned'>rateGT.s:H7_NCBI_backbone_dates_aligned[1 1] (0.0,Infinity): 0.057680714510054056 </statenode>
+<statenode id='gammaShape.s:H7_NCBI_backbone_dates_aligned'>gammaShape.s:H7_NCBI_backbone_dates_aligned[1 1] (0.001,1000.0): 0.17517684485528032 </statenode>
+<statenode id='ePopSize.t:H7_NCBI_backbone_dates_aligned'>ePopSize.t:H7_NCBI_backbone_dates_aligned[1 1] (0.0,Infinity): 0.29617460624960085 </statenode>
+<statenode id='growthRate.t:H7_NCBI_backbone_dates_aligned'>growthRate.t:H7_NCBI_backbone_dates_aligned[1 1] (-Infinity,Infinity): -0.23426059418935835 </statenode>
+<statenode id='ucedMean.c:H7_NCBI_backbone_dates_aligned'>ucedMean.c:H7_NCBI_backbone_dates_aligned[1 1] (-Infinity,Infinity): 0.031202169626936067 </statenode>
+<statenode id='expRateCategories.c:H7_NCBI_backbone_dates_aligned'>expRateCategories.c:H7_NCBI_backbone_dates_aligned[24 1] (0,23): 4 7 2 6 3 20 11 17 5 13 23 5 1 1 8 0 4 1 23 21 6 7 10 5 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"RateACScaler.s:H7_NCBI_backbone_dates_aligned","p":0.4864006121239494,"accept":2199,"reject":6433,"acceptFC":2189,"rejectFC":6407,"rejectIv":0,"rejectOp":0},
+{"id":"RateAGScaler.s:H7_NCBI_backbone_dates_aligned","p":0.5505676023278032,"accept":1962,"reject":6765,"acceptFC":1956,"rejectFC":6734,"rejectIv":0,"rejectOp":0},
+{"id":"RateATScaler.s:H7_NCBI_backbone_dates_aligned","p":0.259171043474801,"accept":2592,"reject":6393,"acceptFC":2586,"rejectFC":6366,"rejectIv":0,"rejectOp":0},
+{"id":"RateCGScaler.s:H7_NCBI_backbone_dates_aligned","p":0.17621550101512787,"accept":2887,"reject":6142,"acceptFC":2873,"rejectFC":6124,"rejectIv":0,"rejectOp":0},
+{"id":"RateGTScaler.s:H7_NCBI_backbone_dates_aligned","p":0.2665002979981297,"accept":2042,"reject":6742,"acceptFC":2026,"rejectFC":6733,"rejectIv":0,"rejectOp":0},
+{"id":"gammaShapeScaler.s:H7_NCBI_backbone_dates_aligned","p":0.40266034512468085,"accept":1161,"reject":7587,"acceptFC":1149,"rejectFC":7571,"rejectIv":0,"rejectOp":0},
+{"id":"CoalescentExponentialTreeScaler.t:H7_NCBI_backbone_dates_aligned","p":0.8582483353391112,"accept":7721,"reject":258167,"acceptFC":7720,"rejectFC":257298,"rejectIv":113766,"rejectOp":113766},
+{"id":"CoalescentExponentialTreeRootScaler.t:H7_NCBI_backbone_dates_aligned","p":0.7328953734478763,"accept":45720,"reject":220964,"acceptFC":45711,"rejectFC":219963,"rejectIv":62009,"rejectOp":62009},
+{"id":"CoalescentExponentialUniformOperator.t:H7_NCBI_backbone_dates_aligned","p":"NaN","accept":415774,"reject":2248392,"acceptFC":414684,"rejectFC":2240123,"rejectIv":0,"rejectOp":0},
+{"id":"CoalescentExponentialSubtreeSlide.t:H7_NCBI_backbone_dates_aligned","p":1.262605738384433,"accept":342830,"reject":989797,"acceptFC":342328,"rejectFC":985554,"rejectIv":307486,"rejectOp":307486},
+{"id":"CoalescentExponentialNarrow.t:H7_NCBI_backbone_dates_aligned","p":"NaN","accept":71885,"reject":1259096,"acceptFC":71753,"rejectFC":1254628,"rejectIv":790272,"rejectOp":790272},
+{"id":"CoalescentExponentialWide.t:H7_NCBI_backbone_dates_aligned","p":"NaN","accept":866,"reject":265174,"acceptFC":864,"rejectFC":264246,"rejectIv":221309,"rejectOp":221309},
+{"id":"CoalescentExponentialWilsonBalding.t:H7_NCBI_backbone_dates_aligned","p":"NaN","accept":489,"reject":266027,"acceptFC":485,"rejectFC":265093,"rejectIv":80612,"rejectOp":80612},
+{"id":"ePopSizeScaler.t:H7_NCBI_backbone_dates_aligned","p":0.9998967377178133,"accept":266431,"reject":64,"acceptFC":265496,"rejectFC":64,"rejectIv":0,"rejectOp":0},
+{"id":"GrowthRateRandomWalk.t:H7_NCBI_backbone_dates_aligned","p":0.20624859085791059,"accept":41018,"reject":225474,"acceptFC":40979,"rejectFC":224599,"rejectIv":0,"rejectOp":0},
+{"id":"ucedMeanScaler.c:H7_NCBI_backbone_dates_aligned","p":0.7138812296612798,"accept":20414,"reject":68394,"acceptFC":20384,"rejectFC":68072,"rejectIv":0,"rejectOp":0},
+{"id":"ExpCategoriesRandomWalk.c:H7_NCBI_backbone_dates_aligned","p":"NaN","accept":404116,"reject":484257,"acceptFC":403239,"rejectFC":481948,"rejectIv":321069,"rejectOp":321069},
+{"id":"ExpCategoriesSwapOperator.c:H7_NCBI_backbone_dates_aligned","p":"NaN","accept":144500,"reject":743621,"acceptFC":143895,"rejectFC":741090,"rejectIv":0,"rejectOp":0},
+{"id":"ExpCategoriesUniform.c:H7_NCBI_backbone_dates_aligned","p":"NaN","accept":231523,"reject":657998,"acceptFC":230971,"rejectFC":655383,"rejectIv":0,"rejectOp":0},
+{"id":"relaxedUpDownOperatorExp.c:H7_NCBI_backbone_dates_aligned","p":0.9208846629554852,"accept":15277,"reject":251107,"acceptFC":15276,"rejectFC":250123,"rejectIv":123924,"rejectOp":123924}
+]}
+-->
