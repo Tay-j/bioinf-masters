@@ -1,0 +1,37 @@
+<itsabeastystatewerein version='2.0' sample='10000000'>
+<statenode id='Tree.t:H7_NCBI_backbone_dates_aligned'>(((0:2.85774873205888,(((8:1.7310606505139532,9:0.6543483217468093)14:1.0829162777900265,10:0.17836048994796982)13:10.89130510058508,11:0.06692586450569316)16:0.14150779906016275)22:4.30612012205296,(7:1.7717902850721199,12:10.87042042205835)23:7.353722404656262)20:9.208831200445935,(((1:1.297252040128141,((2:0.21953623230385233,3:0.2003581501121232)17:0.026948064722640552,4:0.2574432011361498)15:4.00419240063589)18:2.796356414843009,6:1.7002481735129784)19:5.729004253796738,5:0.26370859917879486)21:3.4870736471597574)24:0.0</statenode>
+<statenode id='rateAC.s:H7_NCBI_backbone_dates_aligned'>rateAC.s:H7_NCBI_backbone_dates_aligned[1 1] (0.0,Infinity): 0.14930099681382816 </statenode>
+<statenode id='rateAG.s:H7_NCBI_backbone_dates_aligned'>rateAG.s:H7_NCBI_backbone_dates_aligned[1 1] (0.0,Infinity): 0.6985670097595452 </statenode>
+<statenode id='rateAT.s:H7_NCBI_backbone_dates_aligned'>rateAT.s:H7_NCBI_backbone_dates_aligned[1 1] (0.0,Infinity): 0.041828022484452804 </statenode>
+<statenode id='rateCG.s:H7_NCBI_backbone_dates_aligned'>rateCG.s:H7_NCBI_backbone_dates_aligned[1 1] (0.0,Infinity): 1.6563277533650267E-14 </statenode>
+<statenode id='rateGT.s:H7_NCBI_backbone_dates_aligned'>rateGT.s:H7_NCBI_backbone_dates_aligned[1 1] (0.0,Infinity): 0.05467592660903557 </statenode>
+<statenode id='gammaShape.s:H7_NCBI_backbone_dates_aligned'>gammaShape.s:H7_NCBI_backbone_dates_aligned[1 1] (0.001,1000.0): 0.19860340418423666 </statenode>
+<statenode id='ePopSize.t:H7_NCBI_backbone_dates_aligned'>ePopSize.t:H7_NCBI_backbone_dates_aligned[1 1] (0.0,Infinity): 0.303041980403989 </statenode>
+<statenode id='growthRate.t:H7_NCBI_backbone_dates_aligned'>growthRate.t:H7_NCBI_backbone_dates_aligned[1 1] (-Infinity,Infinity): -0.1600443605823746 </statenode>
+<statenode id='Indicators.c:H7_NCBI_backbone_dates_aligned'>Indicators.c:H7_NCBI_backbone_dates_aligned[24 1] (null,true): true false false false false false false false false false true false true true true false false false false false false true true false </statenode>
+<statenode id='meanClockRate.c:H7_NCBI_backbone_dates_aligned'>meanClockRate.c:H7_NCBI_backbone_dates_aligned[1 1] (-Infinity,Infinity): 0.01848317507491122 </statenode>
+<statenode id='clockrates.c:H7_NCBI_backbone_dates_aligned'>clockrates.c:H7_NCBI_backbone_dates_aligned[24 1] (1.0E-9,1.7976931348623157E308): 3.120898290361774E-7 1.8410710425299716E-5 0.03143334816056643 4.601315428485423E-9 0.33338683419738036 4.071561802723407E-5 0.009157663775407422 2.898815918042983E-6 8.373263839622026E-6 9.474312441530698E-7 8.822907305946387 0.37220037754972735 0.2102548808289188 0.18604926014457318 0.4138702551548168 5.236003620270847E-8 5.192000362949588E-9 0.014919051653325906 0.012403555427905132 3.9913645612131393E-7 0.017847745862841945 0.40134856812623343 12.956390031329118 1.3757338151207763E-6 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"RateACScaler.s:H7_NCBI_backbone_dates_aligned","p":0.4273028651178355,"accept":1775,"reject":7094,"acceptFC":1764,"rejectFC":7073,"rejectIv":0,"rejectOp":0},
+{"id":"RateAGScaler.s:H7_NCBI_backbone_dates_aligned","p":0.5570257997391374,"accept":2118,"reject":6786,"acceptFC":2108,"rejectFC":6765,"rejectIv":0,"rejectOp":0},
+{"id":"RateATScaler.s:H7_NCBI_backbone_dates_aligned","p":0.25925111990574046,"accept":2750,"reject":6250,"acceptFC":2745,"rejectFC":6235,"rejectIv":0,"rejectOp":0},
+{"id":"RateCGScaler.s:H7_NCBI_backbone_dates_aligned","p":0.1941548542197431,"accept":3102,"reject":5723,"acceptFC":3096,"rejectFC":5712,"rejectIv":0,"rejectOp":0},
+{"id":"RateGTScaler.s:H7_NCBI_backbone_dates_aligned","p":0.3018459281252111,"accept":2309,"reject":6477,"acceptFC":2292,"rejectFC":6464,"rejectIv":0,"rejectOp":0},
+{"id":"gammaShapeScaler.s:H7_NCBI_backbone_dates_aligned","p":0.6023106998760989,"accept":2117,"reject":6854,"acceptFC":2110,"rejectFC":6840,"rejectIv":0,"rejectOp":0},
+{"id":"CoalescentExponentialTreeScaler.t:H7_NCBI_backbone_dates_aligned","p":0.8657414894533811,"accept":6570,"reject":259697,"acceptFC":6567,"rejectFC":259048,"rejectIv":114583,"rejectOp":114583},
+{"id":"CoalescentExponentialTreeRootScaler.t:H7_NCBI_backbone_dates_aligned","p":0.707997316491747,"accept":42501,"reject":224220,"acceptFC":42439,"rejectFC":223630,"rejectIv":51811,"rejectOp":51811},
+{"id":"CoalescentExponentialUniformOperator.t:H7_NCBI_backbone_dates_aligned","p":"NaN","accept":506436,"reject":2157580,"acceptFC":505265,"rejectFC":2152414,"rejectIv":0,"rejectOp":0},
+{"id":"CoalescentExponentialSubtreeSlide.t:H7_NCBI_backbone_dates_aligned","p":2.0174693799857972,"accept":261376,"reject":1070699,"acceptFC":260384,"rejectFC":1068531,"rejectIv":346830,"rejectOp":346830},
+{"id":"CoalescentExponentialNarrow.t:H7_NCBI_backbone_dates_aligned","p":"NaN","accept":63495,"reject":1269559,"acceptFC":63308,"rejectFC":1266685,"rejectIv":700006,"rejectOp":700006},
+{"id":"CoalescentExponentialWide.t:H7_NCBI_backbone_dates_aligned","p":"NaN","accept":802,"reject":265357,"acceptFC":799,"rejectFC":264722,"rejectIv":221345,"rejectOp":221345},
+{"id":"CoalescentExponentialWilsonBalding.t:H7_NCBI_backbone_dates_aligned","p":"NaN","accept":596,"reject":265622,"acceptFC":592,"rejectFC":264990,"rejectIv":79252,"rejectOp":79252},
+{"id":"ePopSizeScaler.t:H7_NCBI_backbone_dates_aligned","p":0.9998967864937763,"accept":266084,"reject":77,"acceptFC":265461,"rejectFC":77,"rejectIv":0,"rejectOp":0},
+{"id":"GrowthRateRandomWalk.t:H7_NCBI_backbone_dates_aligned","p":0.19614923675289977,"accept":45461,"reject":220521,"acceptFC":45427,"rejectFC":219906,"rejectIv":0,"rejectOp":0},
+{"id":"randomClockScaler.c:H7_NCBI_backbone_dates_aligned","p":0.6836656671830449,"accept":17619,"reject":70802,"acceptFC":17585,"rejectFC":70638,"rejectIv":0,"rejectOp":0},
+{"id":"randomClockUpDownOperator.c:H7_NCBI_backbone_dates_aligned","p":0.895372247562363,"accept":8982,"reject":257566,"acceptFC":8969,"rejectFC":256960,"rejectIv":130675,"rejectOp":130675},
+{"id":"IndicatorsBitFlip.c:H7_NCBI_backbone_dates_aligned","p":"NaN","accept":11365,"reject":1321502,"acceptFC":11277,"rejectFC":1318412,"rejectIv":0,"rejectOp":0},
+{"id":"ClockRateScaler.c:H7_NCBI_backbone_dates_aligned","p":0.18300566241972693,"accept":365372,"reject":966785,"acceptFC":363567,"rejectFC":965293,"rejectIv":2457,"rejectOp":2457}
+]}
+-->

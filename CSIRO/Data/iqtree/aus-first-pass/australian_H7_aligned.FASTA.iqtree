@@ -1,0 +1,148 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: australian_H7_aligned.FASTA
+Type of analysis: tree reconstruction
+Random seed number: 343340
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 28 sequences with 1776 nucleotide sites
+Number of constant sites: 1022 (= 57.545% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 1022 (= 57.545% of all sites)
+Number of parsimony informative sites: 700
+Number of distinct site patterns: 519
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G4
+
+Rate parameter R:
+
+  A-C: 3.1563
+  A-G: 12.4358
+  A-T: 1.0911
+  C-G: 0.4011
+  C-T: 18.9413
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3332
+  pi(C) = 0.1817
+  pi(G) = 0.2484
+  pi(T) = 0.2367
+
+Rate matrix Q:
+
+  A   -0.8919    0.1305    0.7026   0.05875
+  C    0.2393    -1.282   0.02266      1.02
+  G    0.9427   0.01658    -1.013   0.05384
+  T   0.08272    0.7829    0.0565   -0.9222
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.2977
+
+ Category  Relative_rate  Proportion
+  1         0.005112       0.25
+  2         0.1027         0.25
+  3         0.5919         0.25
+  4         3.3            0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -8597.7734 (s.e. 169.7595)
+Unconstrained log-likelihood (without tree): -7512.5714
+Number of free parameters (#branches + #model parameters): 62
+Akaike information criterion (AIC) score: 17319.5468
+Corrected Akaike information criterion (AICc) score: 17324.1072
+Bayesian information criterion (BIC) score: 17659.4382
+
+Total tree length (sum of branch lengths): 1.7077
+Sum of internal branch lengths: 1.5531 (90.9471% of tree length)
+
+WARNING: 4 near-zero internal branches (<0.0006) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'CY022693_A_chicken_New_South_Wales_2_1997_H7N4__04-12-1997' is drawn at root
+
++**CY022693_A_chicken_New_South_Wales_2_1997_H7N4__04-12-1997
+|
+|           +**CY022709_A_emu_New_South_Wales_775_1997_H7N4__08-12-1997
+|        +**|
+|        |  +**CY022709.1_Influenza_A_virus__A_emu_New_South_Wales_775_1997_H7N4___segment_4__complete_sequence_27-06-2007
+|     +--|
+|     |  +**AY943924.1_Influenza_A_Virus__A_chicken_NSW_1_97_H7N4___hemagglutinin_gene__complete_cds_01-03-2006
+|  +**|
+|  |  |        +**CY022685_A_chicken_Queensland_1994_H7N3__21-12-1994
+|  |  |     +--|
+|  |  |     |  +**CY022685.1_Influenza_A_virus__A_chicken_Queensland_1994_H7N3___segment_4__complete_sequence_27-06-2007
+|  |  |  +--|
+|  |  |  |  |     +**CY025077_A_chicken_Victoria_224_1992_H7N3__30-7-1992
+|  |  |  |  |  +--|
+|  |  |  |  |  |  +**CY025077.1_Influenza_A_virus__A_chicken_Victoria_224_1992_H7N3___segment_4__complete_sequence_06-09-2007
+|  |  |  |  +--|
+|  |  |  |     |        +**CY025069_A_chicken_Victoria_1_1985_H7N7__31-5-1985
+|  |  |  |     |     +--|
+|  |  |  |     |     |  +**CY025069.1_Influenza_A_virus__A_chicken_Victoria_1_1985_H7N7___segment_4__complete_sequence_06-09-2007
+|  |  |  |     |  +--|
+|  |  |  |     |  |  +**CY024778.1_Influenza_A_virus__A_starling_Victoria_1985_H7N7___segment_4__complete_sequence_09-08-2007
+|  |  |  |     +--|
+|  |  |  |        |     +--CY061602.1_Influenza_A_virus__A_duck_Victoria_1976_H7N7___hemagglutinin__HA__gene__complete_cds_19-04-2010
+|  |  |  |        |  +--|
+|  |  |  |        |  |  +--CY024786.1_Influenza_A_virus__A_chicken_Victoria_1976_H7N7___segment_4__complete_sequence_09-08-2007
+|  |  |  |        +--|
+|  |  |  |           |           +--GU060482_A_goose_Czech_Republic_1848-K9_2009_04-2-2009
+|  |  |  |           |       +---|
+|  |  |  |           |       |   +--CY025117_A_quail_Italy_4992_1999_30-12-1999
+|  |  |  |           +-------|
+|  |  |  |                   |                            +**CY016188_A_mallard_Ohio_322_1998_13-1-1998
+|  |  |  |                   |            +---------------|
+|  |  |  |                   |            |               |  +--CY127253_A_ruddy_turnstone_Delaware_Bay_220_1995_21-5-1995
+|  |  |  |                   |            |               +--|
+|  |  |  |                   |            |                  |     +--CY079308_A_American_green-winged_teal_Mississippi_09OS046_2009_09-1-2009
+|  |  |  |                   |            |                  |  +--|
+|  |  |  |                   |            |                  |  |  +--CY094373_A_northern_shoveler_California_HKWF1372C_2007_12-12-2007
+|  |  |  |                   |            |                  +--|
+|  |  |  |                   |            |                     +--CY102967_A_laughing_gull_Delaware_Bay_42_2006_22-5-2006
+|  |  |  |                   +------------|
+|  |  |  |                                |                               +--CY006032.1_Influenza_A_virus__A_Australian_shelduck_Western_Australia_1756_1983_H15N2___segment_4__complete_sequence_26-01-2006
+|  |  |  |                                +-------------------------------|
+|  |  |  |                                                                |  +**CY006034.1_Influenza_A_virus__A_wedge-tailed_shearwater_Western_Australia_2327_1983_H15N9___segment_4__complete_sequence_26-01-2006
+|  |  |  |                                                                +**|
+|  |  |  |                                                                   +**CY006033.1_Influenza_A_virus__A_sooty_tern_Western_Australia_2190_1983_H15N9___segment_4__complete_sequence_26-01-2006
+|  |  +--|
+|  |     |  +--CY061610.1_Influenza_A_virus__A_duck_Victoria_512_2007_H7N6___segment_4__complete_sequence_19-04-2010
+|  |     +--|
+|  |        +--CY033161.1_Influenza_A_virus__A_duck_Tasmania_277_2007_H7N2___segment_4__complete_sequence_03-07-2008
++**|
+|  |  +**CY022701_A_chicken_New_South_Wales_327_1997_H7N4__27-11-1997
+|  +--|
+|     +**CY022701.1_Influenza_A_virus__A_chicken_New_South_Wales_327_1997_H7N4___segment_4__complete_sequence_27-06-2007
+|
++**CY022693.1_Influenza_A_virus__A_chicken_New_South_Wales_2_1997_H7N4___segment_4__complete_sequence_27-06-2007
+
+Tree in newick format:
+
+(CY022693_A_chicken_New_South_Wales_2_1997_H7N4__04-12-1997:0.0000021389,((((CY022709_A_emu_New_South_Wales_775_1997_H7N4__08-12-1997:0.0000020982,CY022709.1_Influenza_A_virus__A_emu_New_South_Wales_775_1997_H7N4___segment_4__complete_sequence_27-06-2007:0.0000020982):0.0000021674,AY943924.1_Influenza_A_Virus__A_chicken_NSW_1_97_H7N4___hemagglutinin_gene__complete_cds_01-03-2006:0.0000029748):0.0011803610,(((CY022685_A_chicken_Queensland_1994_H7N3__21-12-1994:0.0000020982,CY022685.1_Influenza_A_virus__A_chicken_Queensland_1994_H7N3___segment_4__complete_sequence_27-06-2007:0.0000020982):0.0075452034,((CY025077_A_chicken_Victoria_224_1992_H7N3__30-7-1992:0.0000025246,CY025077.1_Influenza_A_virus__A_chicken_Victoria_224_1992_H7N3___segment_4__complete_sequence_06-09-2007:0.0000025246):0.0113932528,(((CY025069_A_chicken_Victoria_1_1985_H7N7__31-5-1985:0.0000020982,CY025069.1_Influenza_A_virus__A_chicken_Victoria_1_1985_H7N7___segment_4__complete_sequence_06-09-2007:0.0000020982):0.0011296142,CY024778.1_Influenza_A_virus__A_starling_Victoria_1985_H7N7___segment_4__complete_sequence_09-08-2007:0.0005509529):0.0032079870,((CY061602.1_Influenza_A_virus__A_duck_Victoria_1976_H7N7___hemagglutinin__HA__gene__complete_cds_19-04-2010:0.0044721405,CY024786.1_Influenza_A_virus__A_chicken_Victoria_1976_H7N7___segment_4__complete_sequence_09-08-2007:0.0035890514):0.0180877425,((GU060482_A_goose_Czech_Republic_1848-K9_2009_04-2-2009:0.0222771785,CY025117_A_quail_Italy_4992_1999_30-12-1999:0.0301878826):0.0836782601,((CY016188_A_mallard_Ohio_322_1998_13-1-1998:0.0000027076,(CY127253_A_ruddy_turnstone_Delaware_Bay_220_1995_21-5-1995:0.0117281802,((CY079308_A_American_green-winged_teal_Mississippi_09OS046_2009_09-1-2009:0.0118960078,CY094373_A_northern_shoveler_California_HKWF1372C_2007_12-12-2007:0.0080653847):0.0041109990,CY102967_A_laughing_gull_Delaware_Bay_42_2006_22-5-2006:0.0250211393):0.0376082282):0.0262698326):0.2892775956,(CY006032.1_Influenza_A_virus__A_Australian_shelduck_Western_Australia_1756_1983_H15N2___segment_4__complete_sequence_26-01-2006:0.0016485191,(CY006034.1_Influenza_A_virus__A_wedge-tailed_shearwater_Western_Australia_2327_1983_H15N9___segment_4__complete_sequence_26-01-2006:0.0000020982,CY006033.1_Influenza_A_virus__A_sooty_tern_Western_Australia_2190_1983_H15N9___segment_4__complete_sequence_26-01-2006:0.0000020982):0.0000020982):0.5710255071):0.2390238506):0.1393860010):0.0224982398):0.0311973560):0.0168591009):0.0152967703,(CY061610.1_Influenza_A_virus__A_duck_Victoria_512_2007_H7N6___segment_4__complete_sequence_19-04-2010:0.0044330485,CY033161.1_Influenza_A_virus__A_duck_Tasmania_277_2007_H7N2___segment_4__complete_sequence_03-07-2008:0.0077539604):0.0497415479):0.0047533754):0.0004953022,(CY022701_A_chicken_New_South_Wales_327_1997_H7N4__27-11-1997:0.0000026543,CY022701.1_Influenza_A_virus__A_chicken_New_South_Wales_327_1997_H7N4___segment_4__complete_sequence_27-06-2007:0.0000026237):0.0016809489):0.0005586806,CY022693.1_Influenza_A_virus__A_chicken_New_South_Wales_2_1997_H7N4___segment_4__complete_sequence_27-06-2007:0.0000020925);
+
+TIME STAMP
+----------
+
+Date and time: Sun Sep 12 15:56:47 2021
+Total CPU time used: 6.63757 seconds (0h:0m:6s)
+Total wall-clock time used: 6.67263 seconds (0h:0m:6s)
+

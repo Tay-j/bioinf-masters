@@ -1,0 +1,24 @@
+<itsabeastystatewerein version='2.0' sample='10000000'>
+<statenode id='Tree.t:australian_H7_aligned'>((((((((((0:8.827957624017729E-5,12:8.827957624017729E-5)39:2.4101484082477169E-4,11:3.29294417064949E-4)44:0.0064759550219398625,((7:0.0013338963073544312,8:0.0013338963073544312)36:0.0014974048694042768,(9:7.4357544862992E-5,10:7.4357544862992E-5)49:0.002756943631895716)43:0.003973948262246104)50:0.005702954298419278,(20:0.005734397898556903,22:0.005734397898556903)33:0.006773805838867187)32:0.007289781847329542,(5:1.515976989268302E-4,6:1.515976989268302E-4)42:0.019646387885826802)35:0.008932019739811642,(17:2.0708343841560625E-4,18:2.0708343841560625E-4)38:0.028522921886149667)34:0.026592998715805907,(13:0.006484674711991759,(15:9.223062489859495E-5,16:9.223062489859495E-5)31:0.006392444087093164)41:0.04883832932837942)47:0.012020492363068076,(14:0.007522275572184544,21:0.007522275572184544)48:0.05982122083125471)40:0.09631559645048487,(19:0.02226585085293832,27:0.02226585085293832)45:0.1413932420009858)28:0.2015154400656298,((1:0.006085255482687614,(2:0.002976400461834196,3:0.002976400461834196)53:0.003108855020853418)37:0.1820009587568792,((4:0.014553478728225665,26:0.014553478728225665)46:0.0248969561070202,((23:0.01703238240631205,24:0.01703238240631205)52:0.007472331675948289,25:0.024504714082260338)29:0.014945720752985527)51:0.14863577940432093)30:0.17708831867998712)54:0.0</statenode>
+<statenode id='ucldStdev.c:australian_H7_aligned'>ucldStdev.c:australian_H7_aligned[1 1] (0.0,Infinity): 0.8803110488163647 </statenode>
+<statenode id='rateCategories.c:australian_H7_aligned'>rateCategories.c:australian_H7_aligned[54 1] (0,53): 32 6 2 15 47 53 29 3 26 6 24 1 5 6 27 6 34 27 1 41 32 8 23 12 18 33 31 34 10 42 0 1 45 53 38 46 31 37 18 33 33 1 8 12 12 19 34 43 12 32 46 35 22 11 </statenode>
+<statenode id='ePopSize.t:australian_H7_aligned'>ePopSize.t:australian_H7_aligned[1 1] (0.0,Infinity): 0.1911511815195139 </statenode>
+<statenode id='growthRate.t:australian_H7_aligned'>growthRate.t:australian_H7_aligned[1 1] (-Infinity,Infinity): 0.5759987285117689 </statenode>
+</itsabeastystatewerein>
+<!--
+{"operators":[
+{"id":"ePopSizeScaler.t:australian_H7_aligned","p":0.37825589730619,"accept":70981,"reject":198172,"acceptFC":70312,"rejectFC":197864,"rejectIv":0,"rejectOp":0},
+{"id":"GrowthRateRandomWalk.t:australian_H7_aligned","p":5.5425800179556175,"accept":91528,"reject":177660,"acceptFC":90951,"rejectFC":177215,"rejectIv":0,"rejectOp":0},
+{"id":"CoalescentExponentialTreeScaler.t:australian_H7_aligned","p":0.8053539738847366,"accept":51251,"reject":220239,"acceptFC":51192,"rejectFC":219251,"rejectIv":0,"rejectOp":0},
+{"id":"CoalescentExponentialTreeRootScaler.t:australian_H7_aligned","p":0.6977494046444943,"accept":46395,"reject":224083,"acceptFC":46281,"rejectFC":223222,"rejectIv":35204,"rejectOp":35204},
+{"id":"CoalescentExponentialUniformOperator.t:australian_H7_aligned","p":"NaN","accept":598150,"reject":2103942,"acceptFC":596056,"rejectFC":2096061,"rejectIv":0,"rejectOp":0},
+{"id":"CoalescentExponentialSubtreeSlide.t:australian_H7_aligned","p":0.20228153750065328,"accept":14215,"reject":1337001,"acceptFC":14156,"rejectFC":1332066,"rejectIv":626092,"rejectOp":626092},
+{"id":"CoalescentExponentialNarrow.t:australian_H7_aligned","p":"NaN","accept":109980,"reject":1242078,"acceptFC":109654,"rejectFC":1237417,"rejectIv":0,"rejectOp":0},
+{"id":"CoalescentExponentialWide.t:australian_H7_aligned","p":"NaN","accept":439,"reject":270722,"acceptFC":438,"rejectFC":269756,"rejectIv":138199,"rejectOp":138199},
+{"id":"CoalescentExponentialWilsonBalding.t:australian_H7_aligned","p":"NaN","accept":307,"reject":270794,"acceptFC":301,"rejectFC":269756,"rejectIv":37138,"rejectOp":37138},
+{"id":"ucldStdevScaler.c:australian_H7_aligned","p":0.7966840607081928,"accept":68020,"reject":202260,"acceptFC":67979,"rejectFC":201316,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesRandomWalk.c:australian_H7_aligned","p":"NaN","accept":527906,"reject":372261,"acceptFC":526219,"rejectFC":370748,"rejectIv":312787,"rejectOp":312787},
+{"id":"CategoriesSwapOperator.c:australian_H7_aligned","p":"NaN","accept":256618,"reject":644899,"acceptFC":255952,"rejectFC":642198,"rejectIv":0,"rejectOp":0},
+{"id":"CategoriesUniform.c:australian_H7_aligned","p":"NaN","accept":397131,"reject":502969,"acceptFC":396181,"rejectFC":500679,"rejectIv":0,"rejectOp":0}
+]}
+-->

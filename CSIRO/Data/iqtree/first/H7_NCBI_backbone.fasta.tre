@@ -1,0 +1,138 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=36;
+	taxlabels
+	AB450448_A_duck_Mongolia_720_2007
+	AB473543_A_duck_Mongolia_867_2002
+	AB517637_A_northern
+	AF202227_A_chicken_Victoria_1_92_H7N3_
+	AF202231_A_chicken_Queensland_667_95_H7N3_
+	AF202244_A_ostrich_South
+	AF202253_A_ostrich_South
+	AY338458_A_chicken_Netherlands_1_2003
+	CY016188_A_mallard_Ohio_322_1998
+	CY021493_A_turkey_Italy_2987_2003
+	CY022685_A_chicken_Queensland_1994_H7N3_
+	CY022693_A_chicken_New
+	CY022701_A_chicken_New
+	CY022709_A_emu_New
+	CY024778_A_starling_Victoria_1985_H7N7_
+	CY024786_A_chicken_Victoria_1976_H7N7_
+	CY025069_A_chicken_Victoria_1_1985_H7N7_
+	CY025077_A_chicken_Victoria_224_1992_H7N3_
+	CY025117_A_quail_Italy_4992_1999
+	CY033161_A_duck_Tasmania_277_2007_H7N2_
+	CY041410_A_mallard_Netherlands_33_2006
+	CY043832_A_mallard_Netherlands_29_2006
+	CY061602_A_duck_Victoria_1976_H7N7_
+	CY061610_A_duck_Victoria_512_2007_H7N6_
+	CY079308_A_American
+	CY094373_A_northern
+	CY102967_A_laughing
+	CY107846_A_chicken_Italy_445_1999
+	CY127253_A_ruddy
+	DQ525411_A_cinnamon
+	FJ803182_A_mallard_Sweden_S90597_2005
+	GQ257396_A_ruddyturnstone_Delaware_752_2006
+	GU060482_A_goose_Czech
+	M17735_A_chicken_Victoria_1_1985_H7N7_
+	M17736_A_starling_Victoria_1_1985_H7N7_
+	U20462_A_turkey_England_1963
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (CY022693_A_chicken_New:6.08E-4,CY022701_A_chicken_New:0.001827,((((AF202231_A_chicken_Queensland_667_95_H7N3_:6.07E-4,CY022685_A_chicken_Queensland_1994_H7N3_:6.12E-4):0.007505,(((CY025069_A_chicken_Victoria_1_1985_H7N7_:0.001221,((M17735_A_chicken_Victoria_1_1985_H7N7_:0.001216,M17736_A_starling_Victoria_1_1985_H7N7_:3.0E-6):0.006186,CY024778_A_starling_Victoria_1985_H7N7_:3.0E-6):6.02E-4):0.003183,((CY024786_A_chicken_Victoria_1976_H7N7_:0.004042,CY061602_A_duck_Victoria_1976_H7N7_:0.004672):0.013557,((DQ525411_A_cinnamon:0.183441,(CY016188_A_mallard_Ohio_322_1998:0.013042,(((GQ257396_A_ruddyturnstone_Delaware_752_2006:5.82E-4,CY102967_A_laughing:6.35E-4):0.025363,(CY079308_A_American:0.012406,CY094373_A_northern:0.008496):0.004305):0.038954,CY127253_A_ruddy:0.012309):0.014284):0.110823):0.383667,((((((((GU060482_A_goose_Czech:0.025822,AB450448_A_duck_Mongolia_720_2007:0.017827):0.002064,((CY041410_A_mallard_Netherlands_33_2006:5.76E-4,CY043832_A_mallard_Netherlands_29_2006:0.003725):0.005607,FJ803182_A_mallard_Sweden_S90597_2005:0.006862):0.008609):0.001692,CY021493_A_turkey_Italy_2987_2003:0.012161):0.007083,AY338458_A_chicken_Netherlands_1_2003:0.017755):0.002456,((CY107846_A_chicken_Italy_445_1999:6.12E-4,CY025117_A_quail_Italy_4992_1999:5.94E-4):0.01251,(AB517637_A_northern:0.026538,AB473543_A_duck_Mongolia_867_2002:0.010698):0.017414):1.85E-4):0.022136,AF202253_A_ostrich_South:0.024996):0.009355,AF202244_A_ostrich_South:0.010019):0.077842,U20462_A_turkey_England_1963:0.041897):0.06121):0.083346):0.029645):0.030641,(AF202227_A_chicken_Victoria_1_92_H7N3_:3.0E-6,CY025077_A_chicken_Victoria_224_1992_H7N3_:0.001216):0.011217):0.017972):0.015747,(CY033161_A_duck_Tasmania_277_2007_H7N2_:0.008335,CY061610_A_duck_Victoria_512_2007_H7N6_:0.00486):0.053092):0.005266,CY022709_A_emu_New:0.001279):5.45E-4);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute=null;
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Branch times";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute=null;
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute=null;
+	set nodeShapeInternal.colourAttribute=null;
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute=null;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=2816;
+	set rectilinearLayout.rootLength=97;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=16.0;
+	set scaleAxis.isShown=true;
+	set scaleAxis.lineWidth=2.0;
+	set scaleAxis.majorTicks=0.1;
+	set scaleAxis.minorTicks=0.05;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=false;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.08;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=17;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

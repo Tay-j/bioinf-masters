@@ -1,0 +1,156 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    spartan-login1.hpc.unimelb.edu.au (AVX512, FMA3, 187 GB RAM)
+Command: ../iqtree-1.6.12-Linux/bin/iqtree -s australian_H7_aligned.FASTA -m GTR+G
+Seed:    343340 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Sep 12 15:56:40 2021
+Kernel:  AVX+FMA - 1 threads (32 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 32 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file australian_H7_aligned.FASTA ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 28 sequences with 1776 columns, 519 distinct patterns
+700 parsimony-informative, 54 singleton sites, 1021 constant sites
+WARNING: Some sequence names are changed as follows:
+CY022693_A/chicken/New_South_Wales/2/1997(H7N4)/04-12-1997 -> CY022693_A_chicken_New_South_Wales_2_1997_H7N4__04-12-1997
+CY022709_A/emu/New_South_Wales/775/1997(H7N4)/08-12-1997 -> CY022709_A_emu_New_South_Wales_775_1997_H7N4__08-12-1997
+CY022701_A/chicken/New_South_Wales/327/1997(H7N4)/27-11-1997 -> CY022701_A_chicken_New_South_Wales_327_1997_H7N4__27-11-1997
+CY022709.1_Influenza_A_virus_(A/emu/New_South_Wales/775/1997(H7N4))_segment_4,_complete_sequence/27-06-2007 -> CY022709.1_Influenza_A_virus__A_emu_New_South_Wales_775_1997_H7N4___segment_4__complete_sequence_27-06-2007
+CY022693.1_Influenza_A_virus_(A/chicken/New_South_Wales/2/1997(H7N4))_segment_4,_complete_sequence/27-06-2007 -> CY022693.1_Influenza_A_virus__A_chicken_New_South_Wales_2_1997_H7N4___segment_4__complete_sequence_27-06-2007
+CY022701.1_Influenza_A_virus_(A/chicken/New_South_Wales/327/1997(H7N4))_segment_4,_complete_sequence/27-06-2007 -> CY022701.1_Influenza_A_virus__A_chicken_New_South_Wales_327_1997_H7N4___segment_4__complete_sequence_27-06-2007
+AY943924.1_Influenza_A_Virus_(A/chicken/NSW/1/97(H7N4))_hemagglutinin_gene,_complete_cds/01-03-2006 -> AY943924.1_Influenza_A_Virus__A_chicken_NSW_1_97_H7N4___hemagglutinin_gene__complete_cds_01-03-2006
+CY022685_A/chicken/Queensland/1994(H7N3)/21-12-1994 -> CY022685_A_chicken_Queensland_1994_H7N3__21-12-1994
+CY022685.1_Influenza_A_virus_(A/chicken/Queensland/1994(H7N3))_segment_4,_complete_sequence/27-06-2007 -> CY022685.1_Influenza_A_virus__A_chicken_Queensland_1994_H7N3___segment_4__complete_sequence_27-06-2007
+CY025077_A/chicken/Victoria/224/1992(H7N3)/30-7-1992 -> CY025077_A_chicken_Victoria_224_1992_H7N3__30-7-1992
+CY025077.1_Influenza_A_virus_(A/chicken/Victoria/224/1992(H7N3))_segment_4,_complete_sequence/06-09-2007 -> CY025077.1_Influenza_A_virus__A_chicken_Victoria_224_1992_H7N3___segment_4__complete_sequence_06-09-2007
+CY025069_A/chicken/Victoria/1/1985(H7N7)/31-5-1985 -> CY025069_A_chicken_Victoria_1_1985_H7N7__31-5-1985
+CY025069.1_Influenza_A_virus_(A/chicken/Victoria/1/1985(H7N7))_segment_4,_complete_sequence/06-09-2007 -> CY025069.1_Influenza_A_virus__A_chicken_Victoria_1_1985_H7N7___segment_4__complete_sequence_06-09-2007
+CY024778.1_Influenza_A_virus_(A/starling/Victoria/1985(H7N7))_segment_4,_complete_sequence/09-08-2007 -> CY024778.1_Influenza_A_virus__A_starling_Victoria_1985_H7N7___segment_4__complete_sequence_09-08-2007
+CY061602.1_Influenza_A_virus_(A/duck/Victoria/1976(H7N7))_hemagglutinin_(HA)_gene,_complete_cds/19-04-2010 -> CY061602.1_Influenza_A_virus__A_duck_Victoria_1976_H7N7___hemagglutinin__HA__gene__complete_cds_19-04-2010
+CY024786.1_Influenza_A_virus_(A/chicken/Victoria/1976(H7N7))_segment_4,_complete_sequence/09-08-2007 -> CY024786.1_Influenza_A_virus__A_chicken_Victoria_1976_H7N7___segment_4__complete_sequence_09-08-2007
+CY061610.1_Influenza_A_virus_(A/duck/Victoria/512/2007(H7N6))_segment_4,_complete_sequence/19-04-2010 -> CY061610.1_Influenza_A_virus__A_duck_Victoria_512_2007_H7N6___segment_4__complete_sequence_19-04-2010
+CY033161.1_Influenza_A_virus_(A/duck/Tasmania/277/2007(H7N2))_segment_4,_complete_sequence/03-07-2008 -> CY033161.1_Influenza_A_virus__A_duck_Tasmania_277_2007_H7N2___segment_4__complete_sequence_03-07-2008
+GU060482_A/goose/Czech_Republic/1848-K9/2009/04-2-2009 -> GU060482_A_goose_Czech_Republic_1848-K9_2009_04-2-2009
+CY025117_A/quail/Italy/4992/1999/30-12-1999 -> CY025117_A_quail_Italy_4992_1999_30-12-1999
+CY016188_A/mallard/Ohio/322/1998/13-1-1998 -> CY016188_A_mallard_Ohio_322_1998_13-1-1998
+CY127253_A/ruddy_turnstone/Delaware_Bay/220/1995/21-5-1995 -> CY127253_A_ruddy_turnstone_Delaware_Bay_220_1995_21-5-1995
+CY079308_A/American_green-winged_teal/Mississippi/09OS046/2009/09-1-2009 -> CY079308_A_American_green-winged_teal_Mississippi_09OS046_2009_09-1-2009
+CY094373_A/northern_shoveler/California/HKWF1372C/2007/12-12-2007 -> CY094373_A_northern_shoveler_California_HKWF1372C_2007_12-12-2007
+CY102967_A/laughing_gull/Delaware_Bay/42/2006/22-5-2006 -> CY102967_A_laughing_gull_Delaware_Bay_42_2006_22-5-2006
+CY006032.1_Influenza_A_virus_(A/Australian_shelduck/Western_Australia/1756/1983(H15N2))_segment_4,_complete_sequence/26-01-2006 -> CY006032.1_Influenza_A_virus__A_Australian_shelduck_Western_Australia_1756_1983_H15N2___segment_4__complete_sequence_26-01-2006
+CY006034.1_Influenza_A_virus_(A/wedge-tailed_shearwater/Western_Australia/2327/1983(H15N9))_segment_4,_complete_sequence/26-01-2006 -> CY006034.1_Influenza_A_virus__A_wedge-tailed_shearwater_Western_Australia_2327_1983_H15N9___segment_4__complete_sequence_26-01-2006
+CY006033.1_Influenza_A_virus_(A/sooty_tern/Western_Australia/2190/1983(H15N9))_segment_4,_complete_sequence/26-01-2006 -> CY006033.1_Influenza_A_virus__A_sooty_tern_Western_Australia_2190_1983_H15N9___segment_4__complete_sequence_26-01-2006
+
+                                                                                                                                     Gap/Ambiguity  Composition  p-value
+   1  CY022693_A_chicken_New_South_Wales_2_1997_H7N4__04-12-1997                                                                             6.93%    passed     98.55%
+   2  CY022709_A_emu_New_South_Wales_775_1997_H7N4__08-12-1997                                                                               6.93%    passed     99.78%
+   3  CY022701_A_chicken_New_South_Wales_327_1997_H7N4__27-11-1997                                                                           6.93%    passed     99.46%
+   4  CY022709.1_Influenza_A_virus__A_emu_New_South_Wales_775_1997_H7N4___segment_4__complete_sequence_27-06-2007                            4.17%    passed     99.76%
+   5  CY022693.1_Influenza_A_virus__A_chicken_New_South_Wales_2_1997_H7N4___segment_4__complete_sequence_27-06-2007                          4.17%    passed     99.96%
+   6  CY022701.1_Influenza_A_virus__A_chicken_New_South_Wales_327_1997_H7N4___segment_4__complete_sequence_27-06-2007                        4.11%    passed     99.85%
+   7  AY943924.1_Influenza_A_Virus__A_chicken_NSW_1_97_H7N4___hemagglutinin_gene__complete_cds_01-03-2006                                    2.14%    passed     99.13%
+   8  CY022685_A_chicken_Queensland_1994_H7N3__21-12-1994                                                                                    6.93%    passed     95.93%
+   9  CY022685.1_Influenza_A_virus__A_chicken_Queensland_1994_H7N3___segment_4__complete_sequence_27-06-2007                                 4.22%    passed     96.01%
+  10  CY025077_A_chicken_Victoria_224_1992_H7N3__30-7-1992                                                                                   6.93%    passed     99.57%
+  11  CY025077.1_Influenza_A_virus__A_chicken_Victoria_224_1992_H7N3___segment_4__complete_sequence_06-09-2007                               4.17%    passed     98.96%
+  12  CY025069_A_chicken_Victoria_1_1985_H7N7__31-5-1985                                                                                     6.76%    passed     95.21%
+  13  CY025069.1_Influenza_A_virus__A_chicken_Victoria_1_1985_H7N7___segment_4__complete_sequence_06-09-2007                                 4.00%    passed     90.61%
+  14  CY024778.1_Influenza_A_virus__A_starling_Victoria_1985_H7N7___segment_4__complete_sequence_09-08-2007                                  4.00%    passed     92.81%
+  15  CY061602.1_Influenza_A_virus__A_duck_Victoria_1976_H7N7___hemagglutinin__HA__gene__complete_cds_19-04-2010                             4.45%    passed     49.21%
+  16  CY024786.1_Influenza_A_virus__A_chicken_Victoria_1976_H7N7___segment_4__complete_sequence_09-08-2007                                   3.94%    passed     56.29%
+  17  CY061610.1_Influenza_A_virus__A_duck_Victoria_512_2007_H7N6___segment_4__complete_sequence_19-04-2010                                  4.45%    passed     96.89%
+  18  CY033161.1_Influenza_A_virus__A_duck_Tasmania_277_2007_H7N2___segment_4__complete_sequence_03-07-2008                                  4.56%    passed     92.39%
+  19  GU060482_A_goose_Czech_Republic_1848-K9_2009_04-2-2009                                                                                 7.26%    passed     83.61%
+  20  CY025117_A_quail_Italy_4992_1999_30-12-1999                                                                                            6.59%    passed     88.55%
+  21  CY016188_A_mallard_Ohio_322_1998_13-1-1998                                                                                             7.26%    passed     68.92%
+  22  CY127253_A_ruddy_turnstone_Delaware_Bay_220_1995_21-5-1995                                                                             7.26%    passed     93.00%
+  23  CY079308_A_American_green-winged_teal_Mississippi_09OS046_2009_09-1-2009                                                               7.26%    passed     92.67%
+  24  CY094373_A_northern_shoveler_California_HKWF1372C_2007_12-12-2007                                                                      7.26%    passed     82.67%
+  25  CY102967_A_laughing_gull_Delaware_Bay_42_2006_22-5-2006                                                                                7.26%    passed     73.37%
+  26  CY006032.1_Influenza_A_virus__A_Australian_shelduck_Western_Australia_1756_1983_H15N2___segment_4__complete_sequence_26-01-2006        0.73%    passed     93.94%
+  27  CY006034.1_Influenza_A_virus__A_wedge-tailed_shearwater_Western_Australia_2327_1983_H15N9___segment_4__complete_sequence_26-01-2006    0.79%    passed     94.58%
+  28  CY006033.1_Influenza_A_virus__A_sooty_tern_Western_Australia_2190_1983_H15N9___segment_4__complete_sequence_26-01-2006                 0.73%    passed     94.30%
+****  TOTAL                                                                                                                                  5.08%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -9296.577
+2. Current log-likelihood: -8648.199
+3. Current log-likelihood: -8608.726
+4. Current log-likelihood: -8604.171
+5. Current log-likelihood: -8603.219
+6. Current log-likelihood: -8603.032
+Optimal log-likelihood: -8602.988
+Rate parameters:  A-C: 3.20010  A-G: 12.43081  A-T: 1.10036  C-G: 0.38617  C-T: 18.93289  G-T: 1.00000
+Base frequencies:  A: 0.333  C: 0.182  G: 0.248  T: 0.237
+Gamma shape alpha: 0.297
+Parameters optimization took 6 rounds (0.238 sec)
+Computing ML distances based on estimated model parameters... 0.006 sec
+Computing BIONJ tree...
+0.002 seconds
+Log-likelihood of BIONJ tree: -8605.434
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.189 second
+Computing log-likelihood of 98 initial trees ... 0.556 seconds
+Current best score: -8602.988
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -8597.786
+Iteration 10 / LogL: -8599.546 / Time: 0h:0m:1s
+UPDATE BEST LOG-LIKELIHOOD: -8597.777
+Iteration 20 / LogL: -8598.703 / Time: 0h:0m:1s
+Finish initializing candidate tree set (3)
+Current best tree score: -8597.777 / CPU time: 1.348
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -8597.776
+Iteration 30 / LogL: -8604.041 / Time: 0h:0m:2s (0h:0m:5s left)
+UPDATE BEST LOG-LIKELIHOOD: -8597.774
+Iteration 40 / LogL: -8597.791 / Time: 0h:0m:2s (0h:0m:4s left)
+Iteration 50 / LogL: -8604.098 / Time: 0h:0m:3s (0h:0m:3s left)
+Iteration 60 / LogL: -8642.614 / Time: 0h:0m:4s (0h:0m:2s left)
+Iteration 70 / LogL: -8642.841 / Time: 0h:0m:4s (0h:0m:2s left)
+Iteration 80 / LogL: -8643.000 / Time: 0h:0m:5s (0h:0m:1s left)
+UPDATE BEST LOG-LIKELIHOOD: -8597.774
+Iteration 90 / LogL: -8597.774 / Time: 0h:0m:5s (0h:0m:0s left)
+Iteration 100 / LogL: -8597.875 / Time: 0h:0m:6s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:6s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -8597.774
+Optimal log-likelihood: -8597.773
+Rate parameters:  A-C: 3.15631  A-G: 12.43577  A-T: 1.09113  C-G: 0.40109  C-T: 18.94133  G-T: 1.00000
+Base frequencies:  A: 0.333  C: 0.182  G: 0.248  T: 0.237
+Gamma shape alpha: 0.298
+Parameters optimization took 1 rounds (0.013 sec)
+BEST SCORE FOUND : -8597.773
+Total tree length: 1.708
+
+Total number of iterations: 102
+CPU time used for tree search: 6.349 sec (0h:0m:6s)
+Wall-clock time used for tree search: 6.370 sec (0h:0m:6s)
+Total CPU time used: 6.638 sec (0h:0m:6s)
+Total wall-clock time used: 6.669 sec (0h:0m:6s)
+
+Analysis results written to: 
+  IQ-TREE report:                australian_H7_aligned.FASTA.iqtree
+  Maximum-likelihood tree:       australian_H7_aligned.FASTA.treefile
+  Likelihood distances:          australian_H7_aligned.FASTA.mldist
+  Screen log file:               australian_H7_aligned.FASTA.log
+
+Date and Time: Sun Sep 12 15:56:47 2021

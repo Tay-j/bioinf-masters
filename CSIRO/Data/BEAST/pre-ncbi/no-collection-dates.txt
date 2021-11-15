@@ -1,0 +1,23 @@
+>AF202231_A/chicken/Queensland/667/95(H7N3)
+>M17735_A/chicken/Victoria/1/1985(H7N7)
+>AF202227_A/chicken/Victoria/1/92(H7N3)
+>CY024786_A/chicken/Victoria/1976(H7N7)/1-1976 # no day
+>CY033161_A/duck/Tasmania/277/2007(H7N2)/2007 # no day no month
+>CY061610_A/duck/Victoria/512/2007(H7N6)/2007 # no day no month
+>CY061602_A/duck/Victoria/1976(H7N7)/1976 # no day no month
+>CY024778_A/starling/Victoria/1985(H7N7)/1985 # no day no month
+>M17736_A/starling/Victoria/1/1985(H7N7)
+>DQ525411_A/cinnamon_teal/Bolivia/4537/2001 
+>CY107846_A/chicken/Italy/445/1999 # no day no month
+>CY021493_A/turkey/Italy/2987/2003 # no day no month
+>AB517637_A/northern_pintail/Akita/1368/2008 # no day no month
+>AB450448_A/duck/Mongolia/720/2007
+>AB473543_A/duck/Mongolia/867/2002
+>AY338458_A/chicken/Netherlands/1/2003
+>CY041410_A/mallard/Netherlands/33/2006 # no day no month
+>CY043832_A/mallard/Netherlands/29/2006 # no day no month
+>AF202244_A/ostrich/South_Africa/1069/1991
+>AF202253_A/ostrich/South_Africa/M320/1996
+>FJ803182_A/mallard/Sweden/S90597/2005 # no day no month
+>GQ257396_A/ruddyturnstone/Delaware/752/2006 # no day no month
+>U20462_A/turkey/England/1963
